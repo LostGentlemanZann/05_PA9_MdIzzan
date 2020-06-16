@@ -40,19 +40,30 @@ namespace CurrencyConverter
             {
                 amount = Convert.ToSingle(txtAmount.Text);
 
-                if (rb_USD.Checked)
+                if (!(amount <0))
                 {
-                    convertedAmount = 0.74f * amount;
+                    if (rb_USD.Checked)
+                    {
+                        convertedAmount = 0.74f * amount;
+                    }
+                    else if (rb_Yen.Checked)
+                    {
+                        convertedAmount = 81.97f * amount;
+                    }
+                    else if (rb_Myr.Checked)
+                    {
+                        convertedAmount = 3.01f * amount;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Please check a Button");
+                    }
+                    txtConvertedAmount.Text = convertedAmount.ToString(); 
                 }
-                else if (rb_Yen.Checked)
+                else
                 {
-                    convertedAmount = 82.97f * amount;
+                    txtConvertedAmount.Text = "Cannot convert negative amount";
                 }
-                else if (rb_Yen.Checked == false || rb_USD.Checked == false)
-                {
-                    MessageBox.Show("Please check a Button");
-                }
-                txtConvertedAmount.Text = convertedAmount.ToString();
             }
             catch (FormatException)
             {
