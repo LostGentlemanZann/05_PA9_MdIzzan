@@ -1,0 +1,9 @@
+C:\Users\Muhd Izzan\Desktop\05_PA9_MuhdIzzan\CurrencyConverter\bin\Debug\CurrencyConverter.exe.config
+C:\Users\Muhd Izzan\Desktop\05_PA9_MuhdIzzan\CurrencyConverter\bin\Debug\CurrencyConverter.exe
+C:\Users\Muhd Izzan\Desktop\05_PA9_MuhdIzzan\CurrencyConverter\bin\Debug\CurrencyConverter.pdb
+C:\Users\Muhd Izzan\Desktop\05_PA9_MuhdIzzan\CurrencyConverter\obj\Debug\CurrencyConverter.csprojAssemblyReference.cache
+C:\Users\Muhd Izzan\Desktop\05_PA9_MuhdIzzan\CurrencyConverter\obj\Debug\CurrencyConverter.Form1.resources
+C:\Users\Muhd Izzan\Desktop\05_PA9_MuhdIzzan\CurrencyConverter\obj\Debug\CurrencyConverter.Properties.Resources.resources
+C:\Users\Muhd Izzan\Desktop\05_PA9_MuhdIzzan\CurrencyConverter\obj\Debug\CurrencyConverter.csproj.GenerateResource.cache
+C:\Users\Muhd Izzan\Desktop\05_PA9_MuhdIzzan\CurrencyConverter\obj\Debug\CurrencyConverter.exe
+C:\Users\Muhd Izzan\Desktop\05_PA9_MuhdIzzan\CurrencyConverter\obj\Debug\CurrencyConverter.pdb
