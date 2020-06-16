@@ -37,6 +37,7 @@
             this.txtConvertedAmount = new System.Windows.Forms.TextBox();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnConvert = new System.Windows.Forms.Button();
+            this.rb_Myr = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // lblAmount
@@ -94,19 +95,19 @@
             // 
             this.txtAmount.Location = new System.Drawing.Point(237, 103);
             this.txtAmount.Name = "txtAmount";
-            this.txtAmount.Size = new System.Drawing.Size(100, 20);
+            this.txtAmount.Size = new System.Drawing.Size(154, 20);
             this.txtAmount.TabIndex = 5;
             // 
             // txtConvertedAmount
             // 
             this.txtConvertedAmount.Location = new System.Drawing.Point(237, 244);
             this.txtConvertedAmount.Name = "txtConvertedAmount";
-            this.txtConvertedAmount.Size = new System.Drawing.Size(100, 20);
+            this.txtConvertedAmount.Size = new System.Drawing.Size(154, 20);
             this.txtConvertedAmount.TabIndex = 6;
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(397, 242);
+            this.btnClear.Location = new System.Drawing.Point(454, 277);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
             this.btnClear.TabIndex = 7;
@@ -116,7 +117,7 @@
             // 
             // btnConvert
             // 
-            this.btnConvert.Location = new System.Drawing.Point(397, 151);
+            this.btnConvert.Location = new System.Drawing.Point(454, 244);
             this.btnConvert.Name = "btnConvert";
             this.btnConvert.Size = new System.Drawing.Size(75, 23);
             this.btnConvert.TabIndex = 8;
@@ -124,11 +125,23 @@
             this.btnConvert.UseVisualStyleBackColor = true;
             this.btnConvert.Click += new System.EventHandler(this.btnConvert_Click);
             // 
+            // rb_Myr
+            // 
+            this.rb_Myr.AutoSize = true;
+            this.rb_Myr.Location = new System.Drawing.Point(237, 197);
+            this.rb_Myr.Name = "rb_Myr";
+            this.rb_Myr.Size = new System.Drawing.Size(108, 17);
+            this.rb_Myr.TabIndex = 9;
+            this.rb_Myr.TabStop = true;
+            this.rb_Myr.Text = "Malaysian Ringgit";
+            this.rb_Myr.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.rb_Myr);
             this.Controls.Add(this.btnConvert);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.txtConvertedAmount);
@@ -156,6 +169,7 @@
         private System.Windows.Forms.TextBox txtConvertedAmount;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnConvert;
+        private System.Windows.Forms.RadioButton rb_Myr;
     }
 }
 
